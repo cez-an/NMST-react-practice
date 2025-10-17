@@ -1,24 +1,22 @@
-export const Hearder = ()=>{
+import logo from "../assets/icon/logo.svg"
 
-
-    return (
-        <div className= "sm:hidden bg-black/20 md:flex justify-between min-w-screen sm:bg-amber-200 md:bg-amber-600 lg:bg-blue-300 xl:bg-emerald-300 space-x-2 py-5 items-center md:block ">
-            <div className=" ml-7 cursor-pointer">
-                <img src="/src/assets/react.svg" alt="logo" />
-            </div>
-            <div>
-                <ul className="flex decoration-0 space-x-16 cursor-pointer">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-
-
-
-            <h1 className="mr-7 cursor-pointer">login</h1>
-            
+function Header() {
+  return (
+    <div className="bg-gray-200 p-2 flex items-center justify-between ">
+        <img src={logo} alt="logo" className="w-[20px] ml-3" />
+        <ul className="flex gap-3">
+          <li>jksaf</li>
+          <li>sdf</li>
+          <li>sdf</li>
+          <li>sdf</li>
+          <li>sdfs</li>
+        </ul>
+        <div className="gap-2 flex">
+          <p>Sign Up</p>
+          <p>Logout</p>
         </div>
-    )
+    </div>
+  )
 }
+
+export default Header
