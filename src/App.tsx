@@ -1,15 +1,16 @@
-
 import './App.css'
-import Header from './components/Header'
+import Counter from './components/Coubter'
+// import Card from './components/Card'
+// import Header from './components/Header'
 
 
 function App() {
 
   return (
     <>
-
-
-       <Header/>
+        <Counter/>
+       {/* <Header/>
+       <Card/> */}
     </>
   )
 }
