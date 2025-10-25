@@ -25,17 +25,20 @@ function Counter() {
         <Button fun={handleDcrement} btname="Decrement" class="bg-red-900/50"/>
         <Button fun={handleReset} btname="RESET" class="bg-white border-2"/>
 
-      <div className="gap-3">
+      <div className="gap-3 flex flex-col items-center justify-center">
 
-        <label htmlFor="">Change Color :</label>
-        <label htmlFor="">Red</label>
-        <input type="radio" name="color"/>
-        <label htmlFor="">Green :</label>
-        <input type="radio" name="color"/>
-        <label htmlFor="">Orange :</label>
-        <input type="radio" name="color"/>
-        <label htmlFor="">Yellow :</label>
-        <input type="radio" name="color"/>
+        {/* <h1>Change Color</h1>
+        <div>
+            <label htmlFor="">Red : </label> 
+            <input type="radio" name="color"/>
+            <label htmlFor="">Green : </label>
+            <input type="radio" name="color"/>
+            <label htmlFor="">Orange : </label>
+            <input type="radio" name="color"/>
+            <label htmlFor="">Yellow : </label>
+            <input type="radio" name="color"/>
+        </div> */}
+       
 
       </div>
 
